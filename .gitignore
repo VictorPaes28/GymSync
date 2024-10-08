@@ -1,19 +1,49 @@
-# Python
-*.py[cod]
-__pycache__/
-
-# Django
-db.sqlite3
-*sqlite3
+# Sistema
 *.log
-*/migrations/*
-media/
+*.pot
+*.pyc
+*.pyo
+*.coverage
+*.cover
+*.mo
+*.py,cover
+*.sqlite3
 
-# IDEs
+# Configurações do editor
 .idea/
 .vscode/
+*.sublime-workspace
+*.sublime-project
 
-# venv
+# Diretórios do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Virtualenv
 venv/
+ENV/
 env/
 
+# Arquivos de migração
+**/migrations/*
+
+# Diretório estático gerado automaticamente
+staticfiles/
+
+# Diretório media (arquivos carregados pelo usuário)
+media/
+
+# Arquivos de cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Configuração local (se houver)
+local_settings.py
+
+# Arquivos do pytest
+.pytest_cache/
+
+# Arquivos criados pelo sistema
+*.swp
+*.swo
